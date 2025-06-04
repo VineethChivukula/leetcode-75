@@ -185,11 +185,11 @@ public class GreatestCommonDivisorofStrings {
 	}
 
 	public static void main(String[] args) {
-		GreatestCommonDivisorofStrings gcd = new GreatestCommonDivisorofStrings();
+		GreatestCommonDivisorofStrings solution = new GreatestCommonDivisorofStrings();
 
 		// Test cases
-		System.out.println(gcd.bruteForce("ABCABC", "ABC")); // Output: "ABC"
-		System.out.println(gcd.better("ABABAB", "ABAB")); // Output: "AB"
-		System.out.println(gcd.optimal("LEET", "CODE")); // Output: ""
+		System.out.println(solution.bruteForce("ABCABC", "ABC")); // Output: "ABC"
+		System.out.println(solution.better("ABABAB", "ABAB")); // Output: "AB"
+		System.out.println(solution.optimal("LEET", "CODE")); // Output: ""
 	}
 }
