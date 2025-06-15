@@ -70,6 +70,8 @@ public class CanPlaceFlowers {
 	 * 
 	 * At last, I will check if the planted flowers count is greater than or
 	 * equal to n. If it is, I will return true, otherwise false.
+	 * TC: O(m) where m is the length of the flowerbed array.
+	 * SC: O(1) since we are not using any extra space.
 	 */
 	public boolean optimal(int[] flowerbed, int n) {
 		int planted = 0;
